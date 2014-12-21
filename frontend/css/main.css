@@ -61,7 +61,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
- font-family: 'Noto Sans', sans-serif; 
+    font-family: 'Noto Sans', sans-serif; 
+    background: #d64242;
 }
 nav.top {
     height: 80px;
@@ -89,7 +90,7 @@ nav.top.active {
 }
 
 .main {
-    background: #d64242;
+  
 }
 
 .posts{
@@ -125,11 +126,11 @@ article.post.active{
     width: 90%;
     height: 100%;
     box-shadow: 0 10px 30px;   
-    position: absolute;
     z-index: 1000;
-    left:0;
-    top: 0;
     margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 article.post p{
